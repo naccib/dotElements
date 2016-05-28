@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2287D320-2429-4289-BDB8-DA38DAE13BC0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Scrapper</RootNamespace>
+    <AssemblyName>Scrapper</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>bin\Debug\icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HtmlAgilityPack, Version=1.4.9.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <HintPath>..\packages\HtmlAgilityPack.1.4.9\lib\Net45\HtmlAgilityPack.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="info.lundin.math">
+      <HintPath>..\..\..\..\..\Desktop\DLLS\info.lundin.math.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ZedGraph, Version=5.1.7.430, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZedGraph.5.1.7\lib\net35-Client\ZedGraph.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChangeServerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeServerForm.Designer.cs">
+      <DependentUpon>ChangeServerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChemistryExpression.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChemistryExpression.Designer.cs">
+      <DependentUpon>ChemistryExpression.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HighQualityPBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HighQualityPBox.Designer.cs">
+      <DependentUpon>HighQualityPBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ElementShowForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ElementShowForm.Designer.cs">
+      <DependentUpon>ElementShowForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Math\AddVarsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Math\AddVarsForm.Designer.cs">
+      <DependentUpon>AddVarsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Math\MathExpressionParser.cs" />
+    <Compile Include="Math\MathForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Math\MathForm.Designer.cs">
+      <DependentUpon>MathForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PeriodicTableForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PeriodicTableForm.Designer.cs">
+      <DependentUpon>PeriodicTableForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ChangeServerForm.resx">
+      <DependentUpon>ChangeServerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChemistryExpression.resx">
+      <DependentUpon>ChemistryExpression.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ElementShowForm.resx">
+      <DependentUpon>ElementShowForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Math\AddVarsForm.resx">
+      <DependentUpon>AddVarsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Math\MathForm.resx">
+      <DependentUpon>MathForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PeriodicTableForm.resx">
+      <DependentUpon>PeriodicTableForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BystandImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icon32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icon32.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\aboutme.ong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\about_all.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flask_one.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\flask_two.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\search_glass_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\random.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\customize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\FontCustomize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\color_customize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\reset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\advanced.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\devLog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\server.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\variables.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\table.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\tableMedium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\danger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\dangerLittle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\gas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\liquid_one.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\legend_liquid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\aerial_new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\legend_aerial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\legend_oil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\act.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\alcaline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\lantan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\legend_ac.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\legend_la.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\legend_terrosos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\metal_alcaline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\terrosos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\lengend_nonmetals.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\non_metals.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\add_variable_large.png" />
+    <None Include="bin\Debug\add_variablesmall.png" />
+    <None Include="bin\Debug\delete_small.png" />
+    <Content Include="License-LGPL.txt" />
+    <Content Include="Resources\al.html" />
+    <Content Include="Resources\ar.html" />
+    <Content Include="Resources\as.html" />
+    <Content Include="Resources\at.html" />
+    <Content Include="Resources\b.html" />
+    <Content Include="Resources\bi.html" />
+    <Content Include="Resources\br.html" />
+    <Content Include="Resources\c.html" />
+    <Content Include="Resources\cl.html" />
+    <Content Include="Resources\cs.html" />
+    <Content Include="Resources\f.html" />
+    <Content Include="Resources\fr.html" />
+    <Content Include="Resources\ga.html" />
+    <Content Include="Resources\ge.html" />
+    <Content Include="Resources\h.html" />
+    <Content Include="Resources\he.html" />
+    <Content Include="Resources\i.html" />
+    <Content Include="Resources\in.html" />
+    <Content Include="Resources\k.html" />
+    <Content Include="Resources\kr.html" />
+    <Content Include="Resources\li.html" />
+    <Content Include="Resources\n.html" />
+    <Content Include="Resources\na.html" />
+    <Content Include="Resources\ne.html" />
+    <Content Include="Resources\o.html" />
+    <Content Include="Resources\p.html" />
+    <Content Include="Resources\pb.html" />
+    <Content Include="Resources\po.html" />
+    <Content Include="Resources\rb.html" />
+    <Content Include="Resources\rn.html" />
+    <Content Include="Resources\s.html" />
+    <Content Include="Resources\sb.html" />
+    <Content Include="Resources\se.html" />
+    <Content Include="Resources\si.html" />
+    <Content Include="Resources\sn.html" />
+    <Content Include="Resources\te.html" />
+    <Content Include="Resources\tl.html" />
+    <Content Include="Resources\xe.html" />
+    <Content Include="Resources\zn.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\elements\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

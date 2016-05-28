@@ -1,0 +1,9 @@
+C:\Users\Antônio\Documents\Visual Studio 2015\Projects\Scrapper\Worker\bin\Debug\Worker.exe.config
+C:\Users\Antônio\Documents\Visual Studio 2015\Projects\Scrapper\Worker\bin\Debug\Worker.exe
+C:\Users\Antônio\Documents\Visual Studio 2015\Projects\Scrapper\Worker\bin\Debug\Worker.pdb
+C:\Users\Antônio\Documents\Visual Studio 2015\Projects\Scrapper\Worker\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Antônio\Documents\Visual Studio 2015\Projects\Scrapper\Worker\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Antônio\Documents\Visual Studio 2015\Projects\Scrapper\Worker\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Antônio\Documents\Visual Studio 2015\Projects\Scrapper\Worker\obj\Debug\Worker.csprojResolveAssemblyReference.cache
+C:\Users\Antônio\Documents\Visual Studio 2015\Projects\Scrapper\Worker\obj\Debug\Worker.exe
+C:\Users\Antônio\Documents\Visual Studio 2015\Projects\Scrapper\Worker\obj\Debug\Worker.pdb

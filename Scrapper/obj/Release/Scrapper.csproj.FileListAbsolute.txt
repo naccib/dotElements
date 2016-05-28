@@ -1,0 +1,14 @@
+C:\Users\Antônio\documents\visual studio 2015\Projects\Scrapper\Scrapper\bin\Release\Scrapper.exe.config
+C:\Users\Antônio\documents\visual studio 2015\Projects\Scrapper\Scrapper\bin\Release\Scrapper.exe
+C:\Users\Antônio\documents\visual studio 2015\Projects\Scrapper\Scrapper\bin\Release\Scrapper.pdb
+C:\Users\Antônio\documents\visual studio 2015\Projects\Scrapper\Scrapper\bin\Release\HtmlAgilityPack.dll
+C:\Users\Antônio\documents\visual studio 2015\Projects\Scrapper\Scrapper\bin\Release\HtmlAgilityPack.pdb
+C:\Users\Antônio\documents\visual studio 2015\Projects\Scrapper\Scrapper\bin\Release\HtmlAgilityPack.xml
+C:\Users\Antônio\documents\visual studio 2015\Projects\Scrapper\Scrapper\obj\Release\Scrapper.Form1.resources
+C:\Users\Antônio\documents\visual studio 2015\Projects\Scrapper\Scrapper\obj\Release\Scrapper.Properties.Resources.resources
+C:\Users\Antônio\documents\visual studio 2015\Projects\Scrapper\Scrapper\obj\Release\Scrapper.csproj.GenerateResource.Cache
+C:\Users\Antônio\documents\visual studio 2015\Projects\Scrapper\Scrapper\obj\Release\Scrapper.exe
+C:\Users\Antônio\documents\visual studio 2015\Projects\Scrapper\Scrapper\obj\Release\Scrapper.pdb
+C:\Users\Antônio\documents\visual studio 2015\Projects\Scrapper\Scrapper\obj\Release\Scrapper.ChangeServerForm.resources
+C:\Users\Antônio\documents\visual studio 2015\Projects\Scrapper\Scrapper\obj\Release\Scrapper.ElementShowForm.resources
+C:\Users\Antônio\documents\visual studio 2015\Projects\Scrapper\Scrapper\obj\Release\Scrapper.PeriodicTableForm.resources

@@ -1,0 +1,104 @@
+=============== 27/03/2016 13:25:34 ===============
+####### PROCESSING STARTED #######
+Downloading HTML from http://www.chemicalelements.com/elements/ca.html
+Download Succeded
+HTML Scrapping Started
+Name:  Calcium
+Symbol:  Ca
+Atomic Number:  20
+Atomic Mass:  40.078 amu
+Melting Point:  839.0 &ºC (1112.15 K, 1542.2 &ºF)
+Boiling Point:  1484.0 &ºC (1757.15 K, 2703.2 &ºF)
+NoPE:  20
+NoN:  20
+Classification: Metal
+Density:  1.55 g/cm
+Color:  Silvery
+Crystal S.:  Cubic
+####### END OF PROCESSING #######
+####### PROCESSING STARTED #######
+Downloading HTML from http://www.chemicalelements.com/elements/ge.html
+Download Succeded
+HTML Scrapping Started
+Name:  Germanium
+Symbol:  Ge
+Atomic Number:  32
+Atomic Mass:  72.61 amu
+Melting Point:  937.4 &ºC (1210.55 K, 1719.3201 &ºF)
+Boiling Point:  2830.0 &ºC (3103.15 K, 5126.0 &ºF)
+NoPE:  32
+NoN:  41
+Classification: Metal
+Density:  5.323 g/cm
+Color:  grayish
+Crystal S.:  Cubic
+####### END OF PROCESSING #######
+####### PROCESSING STARTED #######
+Downloading HTML from http://www.chemicalelements.com/elements/b.html
+Download Succeded
+HTML Scrapping Started
+Name:  Boron
+Symbol:  B
+Atomic Number:  5
+Atomic Mass:  10.811 amu
+Melting Point:  2300.0 &ºC (2573.15 K, 4172.0 &ºF)
+Boiling Point:  2550.0 &ºC (2823.15 K, 4622.0 &ºF)
+NoPE:  5
+NoN:  6
+Classification: Metal
+Density:  2.34 g/cm
+Color:  brownish
+Crystal S.:  Rhombohedral
+####### END OF PROCESSING #######
+####### PROCESSING STARTED #######
+Downloading HTML from http://www.chemicalelements.com/elements/ta.html
+Download Succeded
+HTML Scrapping Started
+Name:  Tantalum
+Symbol:  Ta
+Atomic Number:  73
+Atomic Mass:  180.9479 amu
+Melting Point:  2996.0 &ºC (3269.15 K, 5424.8 &ºF)
+Boiling Point:  5425.0 &ºC (5698.15 K, 9797.0 &ºF)
+NoPE:  73
+NoN:  108
+Classification: Metal
+Density:  16.654 g/cm
+Color:  gray
+Crystal S.:  Cubic
+####### END OF PROCESSING #######
+####### PROCESSING STARTED #######
+Downloading HTML from http://www.chemicalelements.com/elements/br.html
+Download Succeded
+HTML Scrapping Started
+Name:  Bromine
+Symbol:  Br
+Atomic Number:  35
+Atomic Mass:  79.904 amu
+Melting Point:  -7.2 &ºC (265.95 K, 19.04 &ºF)
+Boiling Point:  58.78 &ºC (331.93 K, 137.804 &ºF)
+NoPE:  35
+NoN:  45
+Classification: Metal
+Density:  3.119 g/cm
+Color:  Red
+Crystal S.:  Orthorhombic
+####### END OF PROCESSING #######
+####### PROCESSING STARTED #######
+Downloading HTML from http://www.chemicalelements.com/elements/er.html
+Download Succeded
+HTML Scrapping Started
+Name:  Erbium
+Symbol:  Er
+Atomic Number:  68
+Atomic Mass:  167.26 amu
+Melting Point:  1522.0 &ºC (1795.15 K, 2771.6 &ºF)
+Boiling Point:  2510.0 &ºC (2783.15 K, 4550.0 &ºF)
+NoPE:  68
+NoN:  99
+Classification: Metal
+Density:  8.795 g/cm
+Color:  grayish
+Crystal S.:  Hexagonal
+####### END OF PROCESSING #######
+
