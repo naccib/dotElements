@@ -7,3 +7,14 @@ C:\Users\Antônio\Documents\Visual Studio 2015\Projects\Scrapper\Worker\bin\Debu
 C:\Users\Antônio\Documents\Visual Studio 2015\Projects\Scrapper\Worker\obj\Debug\Worker.csprojResolveAssemblyReference.cache
 C:\Users\Antônio\Documents\Visual Studio 2015\Projects\Scrapper\Worker\obj\Debug\Worker.exe
 C:\Users\Antônio\Documents\Visual Studio 2015\Projects\Scrapper\Worker\obj\Debug\Worker.pdb
+C:\Users\naccib\Documents\GitHub\dotElements\Worker\bin\Debug\Worker.exe.config
+C:\Users\naccib\Documents\GitHub\dotElements\Worker\bin\Debug\Worker.exe
+C:\Users\naccib\Documents\GitHub\dotElements\Worker\bin\Debug\Worker.pdb
+C:\Users\naccib\Documents\GitHub\dotElements\Worker\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\naccib\Documents\GitHub\dotElements\Worker\bin\Debug\HtmlAgilityPack.xml
+C:\Users\naccib\Documents\GitHub\dotElements\Worker\obj\Debug\Worker.csprojResolveAssemblyReference.cache
+C:\Users\naccib\Documents\GitHub\dotElements\Worker\obj\Debug\Worker.exe
+C:\Users\naccib\Documents\GitHub\dotElements\Worker\obj\Debug\Worker.pdb
+C:\Users\naccib\Documents\GitHub\dotElements\Worker\bin\Debug\HtmlAgilityPack.dll
+C:\Users\naccib\Documents\GitHub\dotElements\Worker\bin\Debug\Newtonsoft.Json.dll
+C:\Users\naccib\Documents\GitHub\dotElements\Worker\bin\Debug\Newtonsoft.Json.xml

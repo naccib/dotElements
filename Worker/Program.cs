@@ -7,54 +7,50 @@ using System.Net;
 using HtmlAgilityPack;
 using System.Threading;
 using System.IO;
+using Newtonsoft.Json;
 
 namespace Worker
 {
     class Program
     {
-        [STAThread]
+        public const string OutElemFiles = "elemento.json";
+        public const string URLFormat = "http://www.chemicalelements.com/elements/{0}.html";
+
         static void Main(string[] args)
         {
-            Thread t = new Thread(function);
-            t.Start();
-
-            Dictionary<string, double> a = new Dictionary<string, double>()
-            {
-                {"a", 2 },
-                {"b", 3 }
-            };
+            Console.WriteLine("Getting elements...");
+            Elemento[] elementos = getAllElements();
+            Console.WriteLine("Parsing to JSON...");
+            string json = JsonConvert.SerializeObject(elementos);
+            Console.WriteLine("Writing to file {0}", OutElemFiles);
+            File.WriteAllText(OutElemFiles, json);
+            Console.WriteLine("Done!");
         }
 
-        [STAThread]
-        static void function()
+        static Elemento[] getAllElements()
         {
-            string[] linhas = File.ReadAllLines("molarmap_old.map");
-            StreamWriter sw = new StreamWriter("att.map");
-
-            Console.WriteLine("Começando a substituir...");
-            string dict = "{\"{0}\", {1}},";
-            string dict2 = "{\"UM\", DOIS},";
-            string tmpdata = "";
-            
-            for(int i = 0; i < linhas.Length; ++i)
+            List<Elemento> l = new List<Elemento>();
+            for(int i = 0; i < 119; ++i)
             {
-                string[] data = linhas[i].Replace(" ", "").Replace("amu", "").Split(new char[] { ':' });
                 try
                 {
-                    sw.WriteLine(dict2.Replace("UM", data[0]).Replace("DOIS", data[1]));
-                    tmpdata += dict2.Replace("UM", data[0]).Replace("DOIS", data[1]) +"\n";
-                    Console.WriteLine(dict2.Replace("UM", data[0]).Replace("DOIS", data[1]));
-                }
-                catch(Exception x)
+                    l.Add(AgilityParser.Parse(getHtml(AgilityParser.GetElement(i + 1))));
+                    Console.WriteLine("Just parsed {0}", i);
+                } catch
                 {
-                    Console.WriteLine(x.Message);
+                    Console.WriteLine("Could not parse {0}", i);
                 }
-
-                System.Windows.Forms.Clipboard.SetText(tmpdata);
-                //sw.WriteLine(string.Format(dict, data[0], data[1]));
             }
 
-            Console.Read();
+            Console.WriteLine("Found {0} elements", l.Count);
+            return l.ToArray();
+        } 
+
+        static string getHtml(string s)
+        {
+            WebClient w = new WebClient();
+            string SourceCode = w.DownloadString(string.Format(URLFormat, s));
+            return SourceCode;
         }
     }
 

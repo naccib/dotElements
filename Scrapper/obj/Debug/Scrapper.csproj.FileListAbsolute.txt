@@ -32,3 +32,36 @@ C:\Users\Antônio\documents\visual studio 2015\Projects\Scrapper\Scrapper\bin\De
 C:\Users\Antônio\documents\visual studio 2015\Projects\Scrapper\Scrapper\obj\Debug\Scrapper.ChemistryExpression.resources
 C:\Users\Antônio\Documents\Visual Studio 2015\Projects\Scrapper\Scrapper\bin\Debug\info.lundin.math.dll
 C:\Users\Antônio\Documents\Visual Studio 2015\Projects\Scrapper\Scrapper\obj\Debug\Scrapper.Math.AddVarsForm.resources
+C:\Users\naccib\Documents\GitHub\dotElements\Scrapper\bin\Debug\Scrapper.exe.config
+C:\Users\naccib\Documents\GitHub\dotElements\Scrapper\bin\Debug\Scrapper.exe
+C:\Users\naccib\Documents\GitHub\dotElements\Scrapper\bin\Debug\Scrapper.pdb
+C:\Users\naccib\Documents\GitHub\dotElements\Scrapper\bin\Debug\HtmlAgilityPack.dll
+C:\Users\naccib\Documents\GitHub\dotElements\Scrapper\bin\Debug\ZedGraph.dll
+C:\Users\naccib\Documents\GitHub\dotElements\Scrapper\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\naccib\Documents\GitHub\dotElements\Scrapper\bin\Debug\HtmlAgilityPack.xml
+C:\Users\naccib\Documents\GitHub\dotElements\Scrapper\bin\Debug\ZedGraph.xml
+C:\Users\naccib\Documents\GitHub\dotElements\Scrapper\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\naccib\Documents\GitHub\dotElements\Scrapper\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\naccib\Documents\GitHub\dotElements\Scrapper\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\naccib\Documents\GitHub\dotElements\Scrapper\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\naccib\Documents\GitHub\dotElements\Scrapper\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\naccib\Documents\GitHub\dotElements\Scrapper\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\naccib\Documents\GitHub\dotElements\Scrapper\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\naccib\Documents\GitHub\dotElements\Scrapper\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\naccib\Documents\GitHub\dotElements\Scrapper\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\naccib\Documents\GitHub\dotElements\Scrapper\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\naccib\Documents\GitHub\dotElements\Scrapper\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\naccib\Documents\GitHub\dotElements\Scrapper\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\naccib\Documents\GitHub\dotElements\Scrapper\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\naccib\Documents\GitHub\dotElements\Scrapper\obj\Debug\Scrapper.csprojResolveAssemblyReference.cache
+C:\Users\naccib\Documents\GitHub\dotElements\Scrapper\obj\Debug\Scrapper.ChangeServerForm.resources
+C:\Users\naccib\Documents\GitHub\dotElements\Scrapper\obj\Debug\Scrapper.ChemistryExpression.resources
+C:\Users\naccib\Documents\GitHub\dotElements\Scrapper\obj\Debug\Scrapper.ElementShowForm.resources
+C:\Users\naccib\Documents\GitHub\dotElements\Scrapper\obj\Debug\Scrapper.Form1.resources
+C:\Users\naccib\Documents\GitHub\dotElements\Scrapper\obj\Debug\Scrapper.Math.AddVarsForm.resources
+C:\Users\naccib\Documents\GitHub\dotElements\Scrapper\obj\Debug\Scrapper.Math.MathForm.resources
+C:\Users\naccib\Documents\GitHub\dotElements\Scrapper\obj\Debug\Scrapper.PeriodicTableForm.resources
+C:\Users\naccib\Documents\GitHub\dotElements\Scrapper\obj\Debug\Scrapper.Properties.Resources.resources
+C:\Users\naccib\Documents\GitHub\dotElements\Scrapper\obj\Debug\Scrapper.csproj.GenerateResource.Cache
+C:\Users\naccib\Documents\GitHub\dotElements\Scrapper\obj\Debug\Scrapper.exe
+C:\Users\naccib\Documents\GitHub\dotElements\Scrapper\obj\Debug\Scrapper.pdb

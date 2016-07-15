@@ -1,0 +1,21 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--  custom styles here  -->
+    <DataTemplate x:Key="ElementTemplate">
+        <StackPanel>
+            <TextBlock Text="{Binding Name}" 
+                           Margin="20,0,20,8"
+                           FontSize="24" 
+                           FontStyle="Normal" 
+                           FontWeight="SemiBold"
+                           Foreground="#FFDFDFDF" />
+            <TextBlock Text="{Binding Symbol}" 
+                           Margin="20,0,20,8"
+                           FontSize="16"
+                           Foreground="#FF1B6D91" 
+                           Opacity="0.8" />
+        </StackPanel>
+    </DataTemplate>
+</ResourceDictionary>
+
+

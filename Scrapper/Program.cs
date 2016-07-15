@@ -16,7 +16,7 @@ namespace Scrapper
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Math.MathForm());
+            Application.Run(new Form1());
         }
     }
 }
