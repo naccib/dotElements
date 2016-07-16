@@ -16,7 +16,7 @@
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>86728EF761FD7775BCEF073260FFD90E29EC47E55817A4569FF35DBF5C6A75DA</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>B20D1714DF20F0DD357E9ABCE74CF09BC19B711035BD802282B50F44D04BE3A0</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>60bcde2f-2a91-4e0b-aa5b-94e3e5e83e3e_1.0.0.0_x86__tw9t7g2b8f3e4</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>60bcde2f-2a91-4e0b-aa5b-94e3e5e83e3e_tw9t7g2b8f3e4!App</RegisteredUserModeAppID>
     <RegisteredPackageID>60bcde2f-2a91-4e0b-aa5b-94e3e5e83e3e</RegisteredPackageID>
@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\naccib\Documents\GitHub\dotElements\WindowsApp1\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-07-15T22:34:26.088</Modified>
+      <Modified>2016-07-16T00:09:29.708</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\naccib\Documents\GitHub\dotElements\WindowsApp1\bin\x86\Debug\WindowsApp1.exe">
       <PackagePath>entrypoint\WindowsApp1.exe</PackagePath>
-      <Modified>2016-07-15T22:34:24.804</Modified>
+      <Modified>2016-07-16T00:09:28.099</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\naccib\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -103,6 +103,10 @@
     <AppxPackagedFile Include="C:\Users\naccib\.nuget\packages\Microsoft.Xaml.Behaviors.Uwp.Managed\1.1.0\lib\uap10.0\Microsoft.Xaml.Interactivity.dll">
       <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
       <Modified>2016-02-22T16:59:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\naccib\.nuget\packages\Mntone.SvgForXaml\0.9.0\lib\uap10.0\Mntone.SvgForXaml.dll">
+      <PackagePath>Mntone.SvgForXaml.dll</PackagePath>
+      <Modified>2015-12-25T12:20:16.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\naccib\.nuget\packages\Newtonsoft.Json\9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -464,13 +468,18 @@
       <PackagePath>Template10Library.dll</PackagePath>
       <Modified>2016-05-19T21:47:34.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\naccib\Documents\GitHub\dotElements\WindowsApp1\Help.htm">
-      <PackagePath>Help.htm</PackagePath>
-      <Modified>2016-07-15T16:43:31.100</Modified>
+    <AppxPackagedFile Include="C:\Users\naccib\.nuget\packages\Win2D.uwp\1.10.0\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll">
+      <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
+      <Modified>2015-12-07T14:56:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\naccib\Documents\GitHub\dotElements\WindowsApp1\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2016-07-15T16:43:30.997</Modified>
+    <AppxPackagedFile Include="C:\Users\naccib\.nuget\packages\Win2D.uwp\1.10.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
+      <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
+      <Modified>2015-12-07T14:56:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\naccib\Documents\GitHub\dotElements\WindowsApp1\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-07-16T00:01:26.524</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\naccib\Documents\GitHub\dotElements\WindowsApp1\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -483,7 +492,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\naccib\Documents\GitHub\dotElements\WindowsApp1\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2016-07-15T16:43:30.982</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\naccib\Documents\GitHub\dotElements\WindowsApp1\Assets\Square44x44Logo.scale-200.png">
@@ -503,16 +511,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\naccib\Documents\GitHub\dotElements\WindowsApp1\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2016-07-15T16:43:30.992</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\naccib\Documents\GitHub\dotElements\WindowsApp1\Help.htm">
+      <PackagePath>Help.htm</PackagePath>
+      <Modified>2016-07-15T16:43:31.100</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\naccib\Documents\GitHub\dotElements\WindowsApp1\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2016-07-15T16:43:30.997</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\naccib\Documents\GitHub\dotElements\WindowsApp1\bin\x86\Debug\WindowsApp1.xr.xml">
       <PackagePath>WindowsApp1.xr.xml</PackagePath>
-      <Modified>2016-07-15T22:29:51.197</Modified>
+      <Modified>2016-07-15T23:54:02.710</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2016-07-15T03:02:16.227</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\naccib\.nuget\packages\Mntone.SvgForXaml\0.9.0\lib\uap10.0\Mntone.SvgForXaml\Mntone.SvgForXaml.xr.xml">
+      <PackagePath>Mntone.SvgForXaml\Mntone.SvgForXaml.xr.xml</PackagePath>
+      <Modified>2015-12-25T12:20:16.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\naccib\.nuget\packages\Template10\1.1.11\lib\uap10.0\Template10Library\Template10Library.xr.xml">
       <PackagePath>Template10Library\Template10Library.xr.xml</PackagePath>
@@ -548,11 +567,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\naccib\Documents\GitHub\dotElements\WindowsApp1\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-07-15T22:34:25.642</Modified>
+      <Modified>2016-07-16T00:09:28.628</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\naccib\Documents\GitHub\dotElements\WindowsApp1\bin\x86\Debug\Core\WindowsApp1.exe">
       <PackagePath>WindowsApp1.exe</PackagePath>
-      <Modified>2016-07-15T22:34:26.079</Modified>
+      <Modified>2016-07-16T00:09:29.698</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

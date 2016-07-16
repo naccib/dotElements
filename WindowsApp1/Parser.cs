@@ -25,11 +25,10 @@ namespace WindowsApp1
                 Elementos = Newtonsoft.Json.JsonConvert.DeserializeObject<Elemento[]>(JSONString);
 
                 Initialized = true;
-            } catch (Exception e)
+            }
+            catch
             {
-                // Handle errors...
-                MessageDialog m = new MessageDialog("Error!\n" + e.Message, "Error");
-                m.ShowAsync();
+
             }
         }
     }

@@ -4,6 +4,7 @@
     <NuGetPackageRoot>$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
   </PropertyGroup>
   <ImportGroup>
+    <Import Project="$(NuGetPackageRoot)\Mntone.SvgForXaml\0.9.0\build\uap10.0\Mntone.SvgForXaml.targets" Condition="Exists('$(NuGetPackageRoot)\Mntone.SvgForXaml\0.9.0\build\uap10.0\Mntone.SvgForXaml.targets')" />
     <Import Project="$(NuGetPackageRoot)\Template10\1.1.11\build\uap10.0\Template10.targets" Condition="Exists('$(NuGetPackageRoot)\Template10\1.1.11\build\uap10.0\Template10.targets')" />
   </ImportGroup>
 </Project>

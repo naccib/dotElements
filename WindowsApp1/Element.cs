@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Windows.UI.Xaml.Media.Imaging;
 
 namespace WindowsApp1
 {
@@ -60,5 +61,12 @@ namespace WindowsApp1
         public string PValue { get; set; }
 
         public ElementProperty(string name, string value) { PName = name; PValue = value; }
+    }
+
+    public class ImageProperty
+    {
+        public BitmapImage ImagePath { get; set; }
+
+        public ImageProperty(BitmapImage path) { ImagePath = path; }
     }
 }

@@ -6,6 +6,7 @@ using System.Linq;
 using Windows.UI.Xaml.Documents;
 using Windows.UI.Xaml.Media;
 using Windows.UI;
+using Windows.UI.Xaml.Media.Imaging;
 
 namespace WindowsApp1.Views
 {
@@ -58,40 +59,33 @@ namespace WindowsApp1.Views
             Elemento clicado = (Elemento)e.ClickedItem;
             ElementLB.Text = String.Format("{0} ({1})", clicado.Name, clicado.Symbol.Replace(" ", ""));
 
-            // load element UI
-            ANumberTB.Text = clicado.ANumber;
-            ANumberTB1.Text = clicado.AMass;
-            ANumberTB2.Text = clicado.MP;
-            ANumberTB3.Text = clicado.BP;
-            ANumberTB4.Text = clicado.NoPE;
-            ANumberTB5.Text = clicado.Classification;
-            ANumberTB6.Text = clicado.Density;
-            ANumberTB7.Text = clicado.Color;
-            ANumberTB8.Text = clicado.CrystalGeo; 
-        }
+            // load UI elements
+            PropLV.Items.Clear();
+            IsotopesLV.Items.Clear();
+            AtomImageLV.Items.Clear();
 
-        private void AddPropertyInlines(TextBlock tb, string name, string content)
-        {
-            Run _name = NameTemplate;
-            Run _content = ContentTemplate;
+            PropLV.Items.Add(new ElementProperty("Atomic Number:", clicado.ANumber));
+            PropLV.Items.Add(new ElementProperty("Atomic Mass:", clicado.AMass));
+            PropLV.Items.Add(new ElementProperty("Boiling Point:", clicado.BP));
+            PropLV.Items.Add(new ElementProperty("Melting Point:", clicado.MP));
+            PropLV.Items.Add(new ElementProperty("Protons and Electrons:", clicado.NoPE));
+            PropLV.Items.Add(new ElementProperty("Classification: ", clicado.Classification));
+            PropLV.Items.Add(new ElementProperty("Density:", clicado.Density));
+            PropLV.Items.Add(new ElementProperty("Color:", clicado.Color));
+            PropLV.Items.Add(new ElementProperty("Crystal Structure:", clicado.CrystalGeo));
 
-            _name.Text = name;
-            _content.Text = content;
+            // update isotopes
+            IsotopesLV.Items.Add(new ElementProperty("Isotopes", clicado.Name));
+            foreach(KeyValuePair<string, string> kv in clicado.Isotopes)
+            {
+                ElementProperty prop = new ElementProperty(kv.Key, " " + kv.Value);
+                IsotopesLV.Items.Add(prop);
+            }
 
-            AddPropertyInlines(tb, _name, _content);
-        }
-
-        private void AddPropertyInlines(TextBlock tb, Run name, Run content)
-        {
-            AddInlines(tb, new Run[] { name, content });
-        }
-
-        private void AddInlines(TextBlock tb, params Run[] data)
-        {
-            tb.Inlines.Clear();
-
-            for (int i = 0; i < data.Length; ++i)
-                tb.Inlines.Add(data[i]);
+            // update image
+            ImageProperty ip = new ImageProperty(new BitmapImage(
+   new Uri(clicado.AtomicStructureImage, UriKind.Absolute)));
+            AtomImageLV.Items.Add(ip);
         }
     }
 }

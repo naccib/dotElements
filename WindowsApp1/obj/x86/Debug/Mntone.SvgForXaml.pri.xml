@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="Mntone.SvgForXaml" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="Mntone.SvgForXaml">
+				<NamedResource name="Mntone.SvgForXaml.xr.xml" uri="ms-resource://Mntone.SvgForXaml/Files/Mntone.SvgForXaml/Mntone.SvgForXaml.xr.xml">
+					<Candidate type="Path">
+						<Value>Mntone.SvgForXaml\Mntone.SvgForXaml.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xbf" uri="ms-resource://Mntone.SvgForXaml/Files/Mntone.SvgForXaml/Themes/Generic.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="UI">
+					<ResourceMapSubtree name="Xaml">
+						<NamedResource name="SvgImage.xbf" uri="ms-resource://Mntone.SvgForXaml/Files/Mntone.SvgForXaml/UI/Xaml/SvgImage.xbf">
+							<Candidate type="EmbeddedData">
+								<Base64Value>[Embedded Binary Data]</Base64Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>
